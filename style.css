@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;600;700;800&display=swap');
+
+* {
+    font-family: 'Spartan', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    margin: auto;
+    height: 700px;
+}
+
+hr {
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#title {
+    font-size: 50px;
+    font-weight: 800;
+    padding: 10px;
+}
+
+p {
+    font-size: 10px;
+    padding: 3px;
+}
+
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 420px;
+    height: 395px;
+    margin: 0 auto;
+}
+
+.tile {
+    /* box */
+    border: 2px solid lightgrey;
+    width: 62px;
+    height: 60px;
+    margin: 2.5px;
+
+    /* text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.correct, .present, .absent {
+    color: white;
+    border-color: white;
+}
+
+.correct {
+    background-color: #6AAA64;
+}
+
+.present {
+    background-color: #C9B458;
+}
+
+.absent {
+    background-color: #787C7E;
+}
+
+.keyboard-row {
+    width: 390px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.key-tile {
+    /* box */
+    border: 1px solid lightgrey;
+    width: 36px;
+    height: 40px;
+    margin: 1px;
+    border-radius: 5px;
+
+    /* text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.enter-key-tile {
+    /* box */
+    border: 1px solid lightgrey;
+    width: 74.45px;
+    height: 40px;
+    margin: 1px;
+    border-radius: 5px;
+
+    /* text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18x;
+    font-weight: 600;
+}
+
+#answer {
+    font-size: 20px;
+    color: #1E1C1C;
+}
